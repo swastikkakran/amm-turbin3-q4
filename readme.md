@@ -81,29 +81,6 @@ The fee is transferred to the configured treasury rather than being added to the
 | `swap` | Swaps between token X and token Y. |
 | `withdraw` | Burns LP tokens and returns the corresponding underlying assets. |
 
-## Project Structure
-
-The project follows the Anchor workspace structure:
-
-```text
-amm-trying/
-├── programs/
-│   └── amm-trying/
-│       ├── src/
-│       │   ├── lib.rs
-│       │   ├── instructions/
-│       │   └── state/
-│       ├── tests/
-│       │   └── test_initialize.rs
-│       └── Cargo.toml
-├── tests/
-├── Anchor.toml
-├── Cargo.toml
-└── README.md
-```
-
-*The structure above illustrates the main project organization; adjust individual entries if your local source tree differs.*
-
 ## Tech Stack
 
 - **Rust** — Smart contract implementation.
@@ -128,7 +105,7 @@ Install the following tools:
 Clone the repository:
 
 ```bash
-git clone <YOUR_REPOSITORY_URL>
+git clone https://github.com/swastikkakran/amm-turbin3-q4
 cd amm-trying
 ```
 
